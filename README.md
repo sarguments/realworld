@@ -30,7 +30,7 @@ RealWorld는 어떤 프론트 엔드 (React, Angular 2, & More)와 백엔드 (No
 
 - CR * D Article에 대한 의견 (업데이트 필요 없음)
 
-- 페이징된 기사 목록 GET, display
+- 페이징된 Article 목록 GET, display
 
 - Article 즐겨찾기
 
@@ -88,7 +88,7 @@ RealWorld는 어떤 프론트 엔드 (React, Angular 2, & More)와 백엔드 (No
 
 ## 백엔드 Spec
 
-모든 백엔드 구현은 [API Spec](https://github.com/gothinkster/realworld/tree/master/api) 을 준수해야합니다 .
+모든 백엔드 구현은 [API Spec](https://github.com/gothinkster/realworld/tree/master/api) 을 준수해야합니다.
 
 편의를 위해 앱을 빌드 할 때 API 엔드포인트를 테스트하는 데 사용할 수 있는 [postman 컬렉션](https://github.com/gothinkster/realworld/blob/master/api/Conduit.postman_collection.json) 이 있습니다.
 
