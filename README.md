@@ -10,7 +10,7 @@
 
 ### See how *the exact same* Medium.com clone (called [Conduit](https://demo.realworld.io)) is built using any of our supported [frontends](#frontends) and  [backends](#backends). Yes, you can mix and match them, because **they all adhere to the same [API spec](spec/)** 😮😎
 
- 대부분의 "todo"데모는 프레임 워크의 기능을 아주 잘 보여 주지만 일반적으로 실제 응용 프로그램을 빌드하는 데 필요한 지식과 관점을 전달하지는 않습니다 .
+ 대부분의 "todo" 데모는 프레임워크의 기능을 아주 잘 보여 주지만, 통상적인 실제 응용 프로그램을 빌드하는 데 필요한 지식과 관점을 전달하지는 않습니다 .
 
 RealWorld는 어떤 프론트 엔드 (React, Angular 2, & More)와 백엔드 (Node, Django, & More)를 선택하고 " Conduit " 이라는 아름답게 디자인 된 풀 스택 응용 프로그램을 실세계에 어떻게 적용 할 수 있는지 살펴봄으로써 이를 해결합니다 .
 
