@@ -42,7 +42,7 @@ RealWorld는 어떤 프론트 엔드 (React, Angular 2, & More)와 백엔드 (No
 
 - ["RealWorld 소개 🙌"](https://medium.com/@ericsimons/introducing-realworld-6016654d36b5) 에릭 시몬스
 
-- 모든 자습서는 모든 프론트 엔드 및 백엔드의 모듈성을 보장하기 위해 동일한 [API 사양에 따라 작성](https://github.com/gothinkster/realworld/blob/master/api) 되었습니다.
+- 모든 자습서는 모든 프론트 엔드 및 백엔드의 모듈성을 보장하기 위해 동일한 [API 사양에 따라 작성](https://github.com/sarguments/realworld/tree/master/api) 되었습니다.
 
 - 모든 프론트 엔드는 동일한 UI / UX에 대해 동일한 핸드 메이드 [부트 스트랩 4 테마](https://github.com/gothinkster/conduit-bootstrap-template) 를 사용합니다.
 
@@ -88,7 +88,7 @@ RealWorld는 어떤 프론트 엔드 (React, Angular 2, & More)와 백엔드 (No
 
 ## 백엔드 Spec
 
-모든 백엔드 구현은 [API Spec](https://github.com/gothinkster/realworld/tree/master/api) 을 준수해야합니다.
+모든 백엔드 구현은 [API Spec](https://github.com/sarguments/realworld/tree/master/api) 을 준수해야합니다.
 
 편의를 위해 앱을 빌드 할 때 API 엔드포인트를 테스트하는 데 사용할 수 있는 [postman 컬렉션](https://github.com/gothinkster/realworld/blob/master/api/Conduit.postman_collection.json) 이 있습니다.
 
