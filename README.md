@@ -93,19 +93,6 @@ RealWorld는 어떤 프론트 엔드 (React, Angular 2, & More)와 백엔드 (No
 편의를 위해 앱을 빌드 할 때 API 엔드포인트를 테스트하는 데 사용할 수 있는 [postman 컬렉션](https://github.com/gothinkster/realworld/blob/master/api/Conduit.postman_collection.json) 이 있습니다.
 
 
-# Frontends
-<!-- INSERT_FRONTEND_REPOS -->
-
-Work In Progress:
-<!--INSERT_FRONTEND_WIP -->
-
-# Backends
-<!-- INSERT_BACKEND_REPOS -->
-
-Work In Progress:
-<!-- INSERT_BACKEND_WIP -->
-
-
 # License
 All of the codebases are **MIT licensed** unless otherwise specified.
 
