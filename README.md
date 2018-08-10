@@ -56,29 +56,29 @@ RealWorld는 어떤 프론트 엔드 (React, Angular 2, & More)와 백엔드 (No
 
 ### 라우팅 지침
 
-- 홈페이지 (URL : / # /)
+- 홈페이지 (URL : /#/)
 
   - 태그 목록
   - 피드, 글로벌 또는 태그 중 하나에서 가져온 Article 목록
   - Article 목록의 페이지네이션
 
-- 로그인 / 가입 페이지  (URL: /#/login, /#/register )
+- 로그인 / 가입 페이지  (URL: /#/login, /#/register)
 
   - JWT를 사용 (localStorage에 토큰 저장).
   - 세션 / 쿠키 기반 인증으로 쉽게 인증 전환 가능
 
-- 설정 페이지 (URL : / # / settings)
+- 설정 페이지 (URL : /#/settings)
 
-- Article 작성 / 편집을 위한 에디터 페이지 (URL : / # / editor, / # / editor / article-slug-here)
+- Article 작성 / 편집을 위한 에디터 페이지 (URL : /#/editor, /#/editor/article-slug-here)
 
-- Article 페이지 (URL : / # / article / article-slug-here)
+- Article 페이지 (URL : /#/article/article-slug-here)
 
   - Article 삭제 버튼 (Article 작성자에게만 표시)
   - 서버 클라이언트 측에서 마크 다운 렌더링
   - 페이지 하단의 댓글 섹션
   - 댓글 삭제 버튼 (댓글 작성자에게만 표시됨)
 
-- 프로필 페이지 (URL : / # / 프로필 / : 사용자 이름, / # / 프로필 / : 사용자 이름 / 즐겨 찾기)
+- 프로필 페이지 (URL : /#/profile/:username, /#/profile/:username/favorites)
 
   - 기본 사용자 정보 표시
 
