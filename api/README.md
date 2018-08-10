@@ -1,7 +1,7 @@
 # RealWorld API Spec
 
 ## How to use the supplied Postman configuration
-
+non
 First ensure you have `newman` installed, by running `newman -v`. If
 that fails, ensure you have a recent NodeJS installed, then:
 
@@ -247,7 +247,7 @@ Example request body:
 }
 ```
 
-No authentication required, returns a [User](#users-for-authentication)
+*No* authentication required, returns a [User](#users-for-authentication)
 
 Required fields: `email`, `username`, `password`
 
