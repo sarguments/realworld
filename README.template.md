@@ -1,7 +1,5 @@
 # ![RealWorld Example Applications](media/realworld.png)
 
-### Stay on the bleeding edge — [join our Gitter room!](https://gitter.im/realworld-dev/main) 🎉
-
 [![Travis](https://img.shields.io/travis/gothinkster/realworld.svg)](https://travis-ci.org/gothinkster/realworld) [![Gitter](https://img.shields.io/gitter/room/realworld-dev/main.svg)](https://gitter.im/realworld-dev/main) [![Twitter](https://img.shields.io/twitter/follow/gothinkster.svg?style=social&label=Follow)](https://twitter.com/gothinkster)
 
 <p align="center">
@@ -12,11 +10,121 @@
 
 ### See how *the exact same* Medium.com clone (called [Conduit](https://demo.realworld.io)) is built using any of our supported [frontends](#frontends) and  [backends](#backends). Yes, you can mix and match them, because **they all adhere to the same [API spec](spec/)** 😮😎
 
-While most "todo" demos provide an excellent cursory glance at a framework's capabilities, they typically don't convey the knowledge & perspective required to actually build _real_ applications with it.
+ 대부분의 "todo"데모는 프레임 워크의 기능을 아주 잘 보여 주지만 일반적으로 실제 응용 프로그램을 빌드하는 데 필요한 지식과 관점을 전달하지는 않습니다 .
 
-RealWorld solves this by allowing you to choose any frontend (React, Angular 2, & more) and any backend (Node, Django, & more) and see how they power a real world, beautifully designed fullstack app called "[Conduit](https://demo.realworld.io)".
+RealWorld는 어떤 프론트 엔드 (React, Angular 2, & More)와 백엔드 (Node, Django, & More)를 선택하고 " Conduit " 이라는 아름답게 디자인 된 풀 스택 응용 프로그램을 실세계에 어떻게 적용 할 수 있는지 살펴봄으로써 이를 해결합니다 .
 
-*Read the [full blog post announcing RealWorld on Medium.](https://medium.com/@ericsimons/introducing-realworld-6016654d36b5)*
+
+
+프로젝트 개요
+
+"도관 (Conduit)"은 소셜 블로깅 사이트 (예 : Medium.com 클론)입니다. 인증을 포함하여 모든 요청에 대해 사용자 정의 API를 사용합니다. https://demo.realworld.io 에서 라이브 데모를 볼 수 있습니다. 
+
+일반적인 기능 :
+
+- JWT를 통한 User 인증 (설정 페이지의 로그인 / 가입 페이지 + 로그아웃 버튼)
+- CRU * User (가입 및 설정 페이지 - 삭제 필요 없음)
+- CRUD Article
+- CR * D Article에 대한 의견 (업데이트 필요 없음)
+- 페이지네이트된 기사 목록 GET, display
+- Article 즐겨찾기
+- 다른 User 팔로우
+  
+
+더 알아보기
+
+- "RealWorld 소개 🙌" 에릭 시몬스
+- 모든 자습서는 모든 프론트 엔드 및 백엔드의 모듈성을 보장하기 위해 동일한 API 사양에 따라 작성 되었습니다.
+- 모든 프론트 엔드는 동일한 UI / UX에 대해 동일한 핸드 메이드 부트 스트랩 4 테마 를 사용합니다.
+  
+
+프론트 엔드 사양
+
+호스팅 된 API 사용
+
+ https://conduit.productionready.io/api!
+
+ 대부분의 "todo"데모는 프레임 워크의 기능을 아주 잘 보여 주지만 일반적으로 *실제* 응용 프로그램을 빌드하는 데 필요한 지식과 관점을 전달하지는 않습니다 .
+
+RealWorld는 어떤 프론트 엔드 (React, Angular 2, & More)와 백엔드 (Node, Django, & More)를 선택하고 " [Conduit](https://demo.realworld.io/) " 이라는 아름답게 디자인 된 풀 스택 응용 프로그램을 실세계에 어떻게 적용 할 수 있는지 살펴봄으로써 이를 해결합니다 .
+
+
+
+# 프로젝트 개요
+
+"도관 (Conduit)"은 소셜 블로깅 사이트 (예 : Medium.com 클론)입니다. 인증을 포함하여 모든 요청에 대해 사용자 정의 API를 사용합니다. [https://demo.realworld.io](https://demo.realworld.io/) 에서 라이브 데모를 볼 수 있습니다. 
+
+**일반적인 기능 :**
+
+- JWT를 통한 User 인증 (설정 페이지의 로그인 / 가입 페이지 + 로그아웃 버튼)
+
+- CRU * User (가입 및 설정 페이지 - 삭제 필요 없음)
+
+- CRUD Article
+
+- CR * D Article에 대한 의견 (업데이트 필요 없음)
+
+- 페이지네이트된 기사 목록 GET, display
+
+- Article 즐겨찾기
+
+- 다른 User 팔로우
+
+  
+
+## 더 알아보기
+
+- ["RealWorld 소개 🙌"](https://medium.com/@ericsimons/introducing-realworld-6016654d36b5) 에릭 시몬스
+
+- 모든 자습서는 모든 프론트 엔드 및 백엔드의 모듈성을 보장하기 위해 동일한 [API 사양에 따라 작성](https://github.com/gothinkster/realworld/blob/master/api) 되었습니다.
+
+- 모든 프론트 엔드는 동일한 UI / UX에 대해 동일한 핸드 메이드 [부트 스트랩 4 테마](https://github.com/gothinkster/conduit-bootstrap-template) 를 사용합니다.
+
+  
+
+## 프론트 엔드 사양
+
+### 호스팅 된 API 사용
+
+ `https://conduit.productionready.io/api`!
+
+### 라우팅 지침
+
+- 홈페이지 (URL : / # /)
+
+  - 태그 목록
+  - 피드, 글로벌 또는 태그 중 하나에서 가져온 Article 목록
+  - Article 목록의 페이지네이션
+
+- 로그인 / 가입 페이지  (URL: /#/login, /#/register )
+
+  - JWT를 사용 (localStorage에 토큰 저장).
+  - 세션 / 쿠키 기반 인증으로 쉽게 인증 전환 가능
+
+- 설정 페이지 (URL : / # / settings)
+
+- Article 작성 / 편집을 위한 에디터 페이지 (URL : / # / editor, / # / editor / article-slug-here)
+
+- Article 페이지 (URL : / # / article / article-slug-here)
+
+  - Article 삭제 버튼 (Article 작성자에게만 표시)
+  - 서버 클라이언트 측에서 마크 다운 렌더링
+  - 페이지 하단의 댓글 섹션
+  - 댓글 삭제 버튼 (댓글 작성자에게만 표시됨)
+
+- 프로필 페이지 (URL : / # / 프로필 / : 사용자 이름, / # / 프로필 / : 사용자 이름 / 즐겨 찾기)
+
+  - 기본 사용자 정보 표시
+
+  - 작성자가 만든 Article 또는 작성자가 즐겨찾기한 Article 목록
+
+    
+
+## 백엔드 사양
+
+모든 백엔드 구현은 [API 사양](https://github.com/gothinkster/realworld/tree/master/api) 을 준수해야합니다 .
+
+편의를 위해 앱을 빌드 할 때 API 엔드포인트를 테스트하는 데 사용할 수 있는 [postman 컬렉션](https://github.com/gothinkster/realworld/blob/master/api/Conduit.postman_collection.json) 이 있습니다.
 
 
 # Frontends
@@ -30,136 +138,6 @@ Work In Progress:
 
 Work In Progress:
 <!-- INSERT_BACKEND_WIP -->
-
-# Mobile
-<!-- INSERT_MOBILE_REPOS -->
-
-Work In Progress:
-<!-- INSERT_MOBILE_WIP -->
-
-# Fullstack
-
-_Since these implementations are reponsible for the entire stack, they obviously cannot be mixed and matched but they still adhere to the same functionality & UX specs._
-
-Work In Progress: **[Meteor]() | [Ruby Hyperloop]() | [Firebase](https://github.com/gothinkster/realworld/issues/199)**
-
-# Create a new stack
-
-[![Create a new stack](media/upcoming_stacks.png)](/spec)
-
-### Know any of these frameworks (or one that isn't listed)?<br />[**Create a new framework implementation >>>**](/spec)
-
-Or you can [view upcoming stacks (WIPs)](https://github.com/gothinkster/realworld/issues?q=is%3Aopen+is%3Aissue+label%3Awip)
-
-Note: All stacks that are a WIP are experimental and incomplete.
-
-Don't expect everything to work perfectly out of the box!
-
-<br />
-
-# How do I get up & running?
-
-Simply follow the instructions in the README of whatever frontend and/or backend repo's you want to get up and running.
-
-### Can you teach me how to build each stack from scratch?
-
-Yup! We've built step-by-step tutorials for all of our stacks that teach you how to go from `git init` all the way to the production ready application. [**Start learning now >>>**](https://thinkster.io/tutorials/fullstack)
-
-<br />
-
-# Community created resources
-
-Forks, tutorials, workshops, and other resources based on the RealWorld project:
-
-- [**React+Redux / Node testing workshop**](https://github.com/kentcdodds/testing-workshop) by [**Kent C. Dodds**](https://github.com/kentcdodds)
-  - Example repo showing the React+Redux and Node stacks working together w/ TDD
-  - Live recording of his workshop is [**available on YouTube**](https://www.youtube.com/watch?v=DdqiXcYDv-8)
-- [**A Real-World Comparison of Front-End Frameworks with Benchmarks**](https://medium.freecodecamp.org/a-real-world-comparison-of-front-end-frameworks-with-benchmarks-e1cb62fd526c) by [**Jacek Schae**](https://medium.freecodecamp.org/@jacekschae)
-  - Medium post comparing performance of various [RealWorld](https://realworld.io/) frontends
-- [**RealWorld React/NodeJS E2E Tests**](https://github.com/anishkny/realworld-e2e-test) by [**Anish Karandikar**](https://github.com/anishkny)
-  - A repo showing how to wire [React](https://github.com/gothinkster/react-redux-realworld-example-app) frontend with [NodeJS](https://github.com/gothinkster/node-express-realworld-example-app) backend for a RealWorld fullstack
-  - Includes E2E integration tests that use [Chrome Puppeteer](https://github.com/GoogleChrome/puppeteer) and [Mocha](https://mochajs.org) and work with CI systems like [Travis CI](https://travis-ci.org/anishkny/realworld-e2e-test) and [CircleCI](https://circleci.com/gh/anishkny/realworld-e2e-test)
-  - Also demonstrates usage of [Greenkeeper](https://greenkeeper.io) for automatic dependency updates and [Snyk](https://snyk.io/) for vulnerability monitoring
-- Performance comparisons:
-  - [A Real-World Comparison of Front-End Frameworks with Benchmarks](https://medium.freecodecamp.org/a-real-world-comparison-of-front-end-frameworks-with-benchmarks-e1cb62fd526c)
-  - [A Real-World Comparison of Front-End Frameworks with Benchmarks (2018 update)](https://medium.freecodecamp.org/a-real-world-comparison-of-front-end-frameworks-with-benchmarks-2018-update-e5760fb4a962)
-
-<br />
-
-# Learn more
-
-- ["Introducing RealWorld 🙌"](https://medium.com/@ericsimons/introducing-realworld-6016654d36b5) by Eric Simons
-- Every tutorial is built against the same [API spec](api/) to ensure modularity of every frontend & backend
-- Every frontend utilizes the same hand crafted [Bootstrap 4 theme](https://github.com/gothinkster/conduit-bootstrap-template) for identical UI/UX
-- There is a hosted version of the backend API available for public usage, no API keys required
-- Interested in creating a new RealWorld stack? View our [starter guide & spec](/spec)
-
-<br />
-
-
-# Who made this?
-
-RealWorld would not be possible without the [open source community](#special-thanks-to) continuously helping push the project forward. In addition, we have a core project team composed of:
-
-#### [Eric Simons](https://twitter.com/ericsimons40) - Founder/Lead
-
-<img align="left" width="40" height="40" src="https://avatars1.githubusercontent.com/u/556934?v=3&s=100">
-
-Eric is a Software Engineer, UI Designer, and author of many technical books & tutorials. He oversees the project direction, maintenance and organizes the planning and development efforts of the team.
-
-
-#### [Albert Pai](https://twitter.com/iamalbertpai) - Founder/Lead
-
-<img align="left" width="40" height="40" src="https://avatars0.githubusercontent.com/u/1776432?v=3&s=100">
-
-Albert is a Software Engineer, DevOps ninja, and author of many technical books & tutorials. He oversees the project direction, maintenance and organizes the planning and development efforts of the team.
-
-#### [Thinkster](https://twitter.com/gothinkster) - Funding/Support
-
-<img align="left" width="40" height="40" src="https://avatars0.githubusercontent.com/u/8601733?v=3&s=100">
-
-[Thinkster](https://thinkster.io) creates high quality resources that help Javascript developers succeed. The RealWorld project wouldn't exist without their funding, so please consider investing in [a Pro subscription](https://thinkster.io/pro) to help support us!
-
-
-#### [James Brewer](https://twitter.com/brwr_) - Admin
-
-<img align="left" width="40" height="40" src="https://avatars1.githubusercontent.com/u/4095660?v=3&s=100">
-
-James is a Software Engineer at Square and a contributor to the Django project. He created & maintains the RW Django codebase and continually provides guidance for the RealWorld project itself.
-
-#### [Anish Karandikar](https://github.com/anishkny) - Admin
-
-<img align="left" width="40" height="40" src="https://avatars1.githubusercontent.com/u/357499?v=3&s=100">
-
-MathWorker, ex-Google, ex-Computational Fluid Dynamicist, forever lover of tech & humanities ❤️
-
-
-#### [Sandeesh S.](https://github.com/SandeeshS) - Admin
-
-<img align="left" width="40" height="40" src="https://avatars1.githubusercontent.com/u/16877877?v=3&s=100">
-
-Full stack developer, Laravel enthusiast, Digital marketing specialist and an avid gamer.
-
-
-#### [Cameron Chapman](https://github.com/Cameron-C-Chapman) - Admin
-
-<img align="left" width="40" height="40" src="https://avatars1.githubusercontent.com/u/1323581?v=3&s=100">
-
-Cameron Chapman is a Software Engineer at FanThreeSixty. He's an open source enthusiast and is helping to teach a local web development boot camp at Kansas University.
-
-
-
-## Special thanks to...
-
-RealWorld wouldn't be possible without the help of the open source community reviewing codebases, creating new app implementations, and many other tasks that help push this project forward. We especially appreciate the OSS leaders who have helped contribute to RealWorld:
-
-- **Dan Abramov** (creator of Redux) for  helping [spark the initial idea](https://twitter.com/dan_abramov/status/692009757775896577), [getting the Redux community involved](https://github.com/reactjs/redux/issues/1353), as well as graciously taking the time to provide feedback on the Redux codebase
-- **Max Lynch** (creator of Ionic) for taking the time to provide guidance in the early days of this project
-- **Addy Osmani** (creator of TodoMVC) for helping [spark the initial idea](https://twitter.com/addyosmani/status/762828483433144320) and his amazing work with TodoMVC
-- **TodoMVC** ([team & contributors](https://github.com/tastejs/todomvc#team)) for their exemplary & successful work; their project & org has been an invaluable analogy for us as we've built out RealWorld
-- **James Brewer** (docs contributor to Django) for countless brainstorming sessions, helping name this project, and creating the Django codebase + tutorial
-
-
 
 
 # License
