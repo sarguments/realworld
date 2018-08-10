@@ -39,6 +39,9 @@ https://developer.mozilla.org/ko/docs/Web/HTTP/Access_control_CORS#%EA%B0%9C%EC%
 
 `Authorization: Token jwt.token.here`
 
+https://github.com/aboullaite/spring-boot-jwt
+
+
 ## JSON Objects returned by API:
 
 Make sure the right content type like `Content-Type: application/json; charset=utf-8` is correctly returned.
@@ -224,7 +227,7 @@ Example request body:
 }
 ```
 
-No authentication required, returns a [User](#users-for-authentication)
+*No* authentication required, returns a [User](#users-for-authentication)
 
 Required fields: `email`, `password`
 
@@ -294,7 +297,7 @@ Authentication optional, returns a [Profile](#profile)
 
 Authentication required, returns a [Profile](#profile)
 
-No additional parameters required
+*No* additional parameters required
 
 
 
@@ -304,7 +307,7 @@ No additional parameters required
 
 Authentication required, returns a [Profile](#profile)
 
-No additional parameters required
+*No* additional parameters required
 
 
 
@@ -353,7 +356,7 @@ Authentication required, will return [multiple articles](#multiple-articles) cre
 
 `GET /api/articles/:slug`
 
-No authentication required, will return [single article](#single-article)
+*No* authentication required, will return [single article](#single-article)
 
 ### Create Article
 
@@ -451,7 +454,7 @@ Authentication required
 
 Authentication required, returns the [Article](#single-article)
 
-No additional parameters required
+*No* additional parameters required
 
 
 
@@ -461,7 +464,7 @@ No additional parameters required
 
 Authentication required, returns the [Article](#single-article)
 
-No additional parameters required
+*No* additional parameters required
 
 
 
@@ -469,4 +472,4 @@ No additional parameters required
 
 `GET /api/tags`
 
-No authentication required, returns a [List of Tags](#list-of-tags)
+*No* authentication required, returns a [List of Tags](#list-of-tags)
