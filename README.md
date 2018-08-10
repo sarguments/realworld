@@ -16,40 +16,6 @@ RealWorld는 어떤 프론트 엔드 (React, Angular 2, & More)와 백엔드 (No
 
 
 
-프로젝트 개요
-
-"도관 (Conduit)"은 소셜 블로깅 사이트 (예 : Medium.com 클론)입니다. 인증을 포함하여 모든 요청에 대해 사용자 정의 API를 사용합니다. https://demo.realworld.io 에서 라이브 데모를 볼 수 있습니다. 
-
-일반적인 기능 :
-
-- JWT를 통한 User 인증 (설정 페이지의 로그인 / 가입 페이지 + 로그아웃 버튼)
-- CRU * User (가입 및 설정 페이지 - 삭제 필요 없음)
-- CRUD Article
-- CR * D Article에 대한 의견 (업데이트 필요 없음)
-- 페이지네이트된 기사 목록 GET, display
-- Article 즐겨찾기
-- 다른 User 팔로우
-  
-
-더 알아보기
-
-- "RealWorld 소개 🙌" 에릭 시몬스
-- 모든 자습서는 모든 프론트 엔드 및 백엔드의 모듈성을 보장하기 위해 동일한 API 사양에 따라 작성 되었습니다.
-- 모든 프론트 엔드는 동일한 UI / UX에 대해 동일한 핸드 메이드 부트 스트랩 4 테마 를 사용합니다.
-  
-
-프론트 엔드 사양
-
-호스팅 된 API 사용
-
- https://conduit.productionready.io/api!
-
- 대부분의 "todo"데모는 프레임 워크의 기능을 아주 잘 보여 주지만 일반적으로 *실제* 응용 프로그램을 빌드하는 데 필요한 지식과 관점을 전달하지는 않습니다 .
-
-RealWorld는 어떤 프론트 엔드 (React, Angular 2, & More)와 백엔드 (Node, Django, & More)를 선택하고 " [Conduit](https://demo.realworld.io/) " 이라는 아름답게 디자인 된 풀 스택 응용 프로그램을 실세계에 어떻게 적용 할 수 있는지 살펴봄으로써 이를 해결합니다 .
-
-
-
 # 프로젝트 개요
 
 "도관 (Conduit)"은 소셜 블로깅 사이트 (예 : Medium.com 클론)입니다. 인증을 포함하여 모든 요청에 대해 사용자 정의 API를 사용합니다. [https://demo.realworld.io](https://demo.realworld.io/) 에서 라이브 데모를 볼 수 있습니다. 
