@@ -29,6 +29,8 @@ modifying `api/Conduit.postman_environment.json`.
 ## Considerations for your backend with [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing)
 
 If the backend is about to run on a different host/port than the frontend, make sure to handle `OPTIONS` too and return correct `Access-Control-Allow-Origin` and `Access-Control-Allow-Headers` (e.g. `Content-Type`).
+https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#mvc-ann-requestmapping-head-options
+https://developer.mozilla.org/ko/docs/Web/HTTP/Access_control_CORS#%EA%B0%9C%EC%9A%94
 
 ### Authentication Header:
 
