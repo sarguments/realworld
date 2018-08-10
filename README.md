@@ -52,7 +52,7 @@ RealWorld는 어떤 프론트 엔드 (React, Angular 2, & More)와 백엔드 (No
 
 ### 호스팅 된 API 사용
 
- `https://conduit.productionready.io/api`!
+ `https://conduit.productionready.io/api`
 
 ### 라우팅 지침
 
