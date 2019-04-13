@@ -28,7 +28,7 @@ RealWorld는 어떤 프론트 엔드 (React, Angular 2, & More)와 백엔드 (No
 
 - CRUD Article
 
-- CR * D Article에 대한 의견 (업데이트 필요 없음)
+- CR * D Article에 대한 코멘트 (업데이트 필요 없음)
 
 - 페이징된 Article 목록 GET, display
 
